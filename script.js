@@ -6,10 +6,9 @@ function berekening() {
         let output = diameter * pi;
         let declaratie = "Omtrek is: ";
         document.getElementById("omtrek").innerHTML = declaratie + output;
-    }
-    {
-        let output = diameter * diameter * pi * 0.25;
-        var declaratie = "Oppervlakte is: "
-        document.getElementById("oppervlakte").innerHTML = declaratie + output;
+    
+        let output2 = diameter * diameter * pi * 0.25;
+        var declaratie2 = "Oppervlakte is: "
+        document.getElementById("oppervlakte").innerHTML = declaratie2 + output2;
     }
 }
